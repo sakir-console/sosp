@@ -48,7 +48,7 @@ if (isset($_REQUEST['submit'])) {
         <br/>
         <?php
 
-        $file_path = "admin/uploads/" . $data['file'];
+        $file_path = "user/uploads/" . $data['file'];
         $mime_type = mime_content_type($file_path);
         echo $data['file'];
         $is_audio = in_array($mime_type, array(
