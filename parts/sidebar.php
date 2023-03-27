@@ -33,6 +33,18 @@
                 <div class="search-box">
                     <h4>সাহিত্য ও সাংস্কৃতিক প্রাঙ্গন</h4>
 
+                    <h4>সার্চ করুন</h4>
+                    <form action="search.php" method="post">
+
+                        <input id="q" name="search"
+                               placeholder=" কবিতা ,গল্প ,উপন্যাস ,গান"
+                               type="text" class="form-control"/>
+                        <input id="s" name="submit" class="btn btn-primary" type="submit" value="সার্চ!"/>
+                    </form>
+                    <div class="clearfix"></div>
+                    <p class="display-block">
+                        কবিতা ,গল্প ,উপন্যাস ,গান ,খুঁজে বের করার জন্য উপরের সার্চ বক্সটি ব্যবহার করুন।
+                    </p>
 
                 </div>
 
